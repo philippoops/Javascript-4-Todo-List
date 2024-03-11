@@ -1,0 +1,10 @@
+.todo-app {
+  height: 100vh;
+  padding: 2.4rem;
+  overscroll-behavior-y: none;
+  display: flex;
+  justify-content: space-between;
+  h2 {
+    color: teal;
+  }
+}
