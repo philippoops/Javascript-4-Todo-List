@@ -31,21 +31,24 @@ hr {
   display: flex;
   justify-content: center;
   gap: 20px;
-  background-color: #c4c1c1;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    228deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(49, 54, 63, 1) 35%,
+    rgba(118, 171, 174, 1) 100%
+  );
   padding: 20px 0;
   margin-bottom: 30px;
   a:link,
   a:visited {
     display: block;
-    color: inherit;
+    color: #eeeeee;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.3rem;
     font-weight: 700;
     padding: 0.5rem 2rem;
     border-radius: 5px;
-  }
-  a:global(.active) {
-    background-color: green;
   }
 }

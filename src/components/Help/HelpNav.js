@@ -1,20 +1,20 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function HelpNav() {
   return (
     <div>
       <ul>
         <li>
-          <NavLink to="">Introduction</NavLink>
+          <Link to="">Introduction</Link>
         </li>
         <li>
-          <NavLink to="add">Adding Tasks</NavLink>
+          <Link to="add">Adding Tasks</Link>
         </li>
         <li>
-          <NavLink to="remove">Removing Tasks</NavLink>
+          <Link to="remove">Removing Tasks</Link>
         </li>
         <li>
-          <NavLink to="change">Changing status</NavLink>
+          <Link to="change">Changing status</Link>
         </li>
       </ul>
     </div>

@@ -18,10 +18,10 @@ function TodoItems({ todo, onChangeStatus, onRemoveTask }) {
         </p>
       </div>
       <div className="button-container">
-        <Button onClick={() => onChangeStatus(todo.id)}>
+        <Button onClick={() => onChangeStatus(todo)}>
           {todo.done === true ? <FaToggleOn /> : <FaToggleOff />} Change Status
         </Button>
-        <Button btnStyle={'red'} onClick={() => onRemoveTask(todo.id)}>
+        <Button btnStyle={'red'} onClick={() => onRemoveTask(todo)}>
           <MdOutlineDeleteSweep />
           Remove Task
         </Button>
